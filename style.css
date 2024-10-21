@@ -48,6 +48,10 @@ main p{
     padding: 20px;
 }
 
+p#frase{
+    padding-top: 0px;
+}
+
 /* ---------------main.two----------------- */
 
 main.two{
@@ -79,5 +83,3 @@ footer a{
 footer a:hover{
     color: #BDE3F2;
 }
-
-
