@@ -2,12 +2,13 @@
     font-family:Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
+
+/* ---------------NAV----------------- */
+
 }
 nav{
     background-color: #010D00;
     text-align: center;
-
-    padding: 20px;
     
 }
 
@@ -20,8 +21,17 @@ nav a {
     font-size: 1.2em;
 }
 
+
+
 nav a:hover{
     color: #BDE3F2;
+}
+
+/* ---------------MAIN----------------- */
+
+main{
+    
+    color: #062601 ;
 }
 
 main h2{
@@ -36,6 +46,38 @@ main p{
     text-indent: 15px;
     text-align: justify;
     padding: 20px;
+}
+
+/* ---------------main.two----------------- */
+
+main.two{
+    background-color: #BFBFBF;
+    
+}
+
+
+main.two h1{
+    font-size: 2em;
+    padding: 30px 20px 40px 20px;
+}
+
+/* ---------------FOOTER----------------- */
+
+footer{
+    background-color: #010D00;
+    color: white;
+    text-align: center;
+
+    padding: 10px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #BDE3F2;
 }
 
 
