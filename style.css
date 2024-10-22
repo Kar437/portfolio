@@ -4,6 +4,9 @@
     margin: 0px;
 }
 
+
+
+
 header{
     background-color: #010D00;
     color: white;
@@ -75,6 +78,18 @@ main.two h1{
     font-size: 2em;
     padding: 30px 20px 40px 20px;
 }
+
+
+/* ---------------BOTÃO------------------ */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
 
 /* ---------------FOOTER----------------- */
 
