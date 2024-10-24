@@ -5,7 +5,9 @@
     margin: 0px;
 }
 
-
+strong{
+    font-weight: bold;
+}
 
 
 header{
@@ -70,6 +72,10 @@ p#frase{
 }
 
 ul.lista{
+    padding-left: 40px;
+}
+
+ol.lista{
     padding-left: 40px;
 }
 
