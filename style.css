@@ -73,6 +73,7 @@ p#frase{
 
 ul.lista{
     padding-left: 40px;
+    text-align: justify;
 }
 
 ol.lista{
