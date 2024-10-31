@@ -15,21 +15,6 @@ Grandes Telas: acima de 1200px
         margin: auto;
     }
     
-    .row {
-        display: flex;
-        justify-content: center; /* Centraliza horizontalmente */
-        align-items: center; /* Centraliza verticalmente, caso desejado */
-      }
-      
-      .col.s12.m6 {
-        max-width: 500px; /* Define uma largura máxima */
-        margin: 0 auto; /* Centraliza a coluna */
-        text-align: center; /* Alinha o conteúdo da coluna */
-      }
-
-      .card {
-        width: 80% ; 
-      }
-    
+   
       
 }

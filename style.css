@@ -5,6 +5,10 @@
     margin: 0px;
 }
 
+body{
+    background-color: #F5F3F3;
+}
+
 strong{
     font-weight: bold;
 }
@@ -46,7 +50,9 @@ nav a:hover{
 
 /* ---------------MAIN----------------- */
 
-
+main{
+    background-color: #F5F3F3;
+}
 
 main h1{
     padding: 20px 0px 0px 20px;
@@ -89,8 +95,9 @@ li{
 /* ---------------main.two----------------- */
 
 main.two{
-    background-color: #BFBFBF;
-    
+    background-color: #F5F3F3;
+    max-width: 100%;
+    text-align: center;
 }
 
 
@@ -99,6 +106,32 @@ main.two h1{
     padding: 30px 20px 40px 20px;
 }
 
+/* ---------------Cards-------------------- */
+
+.card{
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  
+  .col {
+    display: flex;
+  }
+  
+  .card {
+    flex: 1;
+  }
+
+  .card-action{
+    margin-top: auto;
+  }
+  
 /* ---------------BOTÃO------------------ */
 
 .container {
