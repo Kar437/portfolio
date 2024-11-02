@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 
 /* Typical Device Breakpoints
@@ -17,4 +18,25 @@ Grandes Telas: acima de 1200px
     
    
       
+}
+ @media screen and (min-width: 992px) and (max-width: 1200px) {
+    main{
+        max-width: 800px;
+        margin: auto;
+        
+    }
+    main.two{
+        max-width: 900px;
+    }
+ }
+
+@media screen and (min-width: 1200px) {
+    main{
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    main.two{
+        max-width: 1200px;
+    }
 }
